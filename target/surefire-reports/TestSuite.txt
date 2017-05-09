@@ -1,0 +1,29 @@
+Discovery starting.
+Discovery completed in 540 milliseconds.
+Run starting. Expected test count is: 13
+TestEqualEnumStrategy:
+test EqualStrategy
+- test Int (26 milliseconds)
+- test String (0 milliseconds)
+- test array (473 milliseconds)
+- test map (161 milliseconds)
+- test GenderStrategy.handle() (1 millisecond)
+- test GenderStrategy.count() (1 millisecond)
+TestStrategyContainer:
+test StrategyContainer.......
+- test stragetyContainer (930 milliseconds)
+TestBsYearEqualStrategy:
+test EqualStrategy
+- test handle() true (0 milliseconds)
+- test handle() false (1 millisecond)
+TestUPQuality:
+test UPQuality.......
+- test main (1 millisecond)
+- test UPQuality.mapValuesCount() (1 millisecond)
+- test UPQuality.getAccuracy() (12 milliseconds)
+- test bigint division (1 millisecond)
+Run completed in 2 seconds, 317 milliseconds.
+Total number of tests run: 13
+Suites: completed 5, aborted 0
+Tests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.

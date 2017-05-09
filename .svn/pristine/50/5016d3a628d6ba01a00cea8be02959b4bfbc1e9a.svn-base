@@ -1,0 +1,53 @@
+package com.netease.idc.jobs
+
+import com.netease.idc.jobs.UPQuality.Result
+import org.scalatest.{FunSpec, Matchers}
+
+/**
+  * Created by hutianqi on 17/3/30.
+  */
+class TestUPQuality extends FunSpec with Matchers {
+  describe("test UPQuality.......") {
+    it("test main") {
+      val standardInput = s"/Users/hutianqi/Downloads/test/test/inputDir/mapp1"
+      val UPInput = s"/Users/hutianqi/Downloads/test/test/inputDir/mapp2"
+      val output = s"/Users/hutianqi/Downloads/test/test/inputDir/map99_reduce"
+      val args: Array[String] = Array(standardInput, UPInput, output)
+//      UPQuality.main(args)
+    }
+
+    it("test UPQuality.mapValuesCount()") {
+      val mapLeft: Map[String, BigInt] = Map("1" -> 1, "2" -> 2, "3" -> 3)
+      val mapRight: Map[String, BigInt] = Map("1" -> 1, "2" -> 2, "4" -> 4)
+      var result: Map[String, BigInt] = Map()
+      result = UPQuality.mapValuesCount(result, mapRight)
+      UPQuality.mapValuesCount(result, mapLeft)
+
+      val target : Map[String, BigInt] = Map("2" -> 2 , "1" -> 1 , "4" ->4)
+      assert(result == target)
+    }
+
+    it("test UPQuality.getAccuracy()") {
+      val map: Map[String, BigInt] = Map("Gender_F:love" -> 3,
+        "Gender_True:love" -> 5,
+        "Gender_M:love" -> 2,
+        "Gender_M_True:love" -> 2,
+        "Gender:love" -> 5,
+        "Gender_F_True:love" -> 2)
+
+      val result: Set[Result] = UPQuality.getAccuracy(map)
+      val target: Set[Result] = Set(
+          new Result("Gender_True","love","100.00%","5"),
+          new Result("Gender_M_True","love","100.00%","2"),
+          new Result("Gender_F_True","love","66.67%","2")
+      )
+      assert(result == target)
+    }
+
+    it("test bigint division") {
+      val a: BigInt = 1000
+      val b: BigInt = 994
+      assert("%1.3f".format(b.toDouble / a.toDouble) == "0.994")
+    }
+  }
+}

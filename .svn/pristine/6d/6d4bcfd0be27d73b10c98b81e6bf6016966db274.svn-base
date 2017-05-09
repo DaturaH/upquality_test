@@ -1,0 +1,8 @@
+//mysql表
+create table DWB_USER_QUALITY_DD(
+    UPKey varchar(20),
+    UPsource varchar(20),
+    accuracy  varchar(20),
+    accnum varchar(20),
+    day varchar(20)
+);
