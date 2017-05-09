@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="2e57024a-6d79-4d2e-9521-20ae06eda08f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/netease/idc/jobs/UPQuality.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/netease/idc/jobs/UPQuality.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,7 +16,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UPQuality.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UPQuality.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/netease/idc/jobs/UPQuality.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1017">
@@ -23,6 +24,16 @@
               <folding>
                 <element signature="e#30#63#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,13 +78,13 @@
         <option value="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/LoggerFactory.class" />
         <option value="$PROJECT_DIR$/src/main/scala/com/netease/idc/strategy/EqualStrategy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/netease/idc/strategy/StrategyContainer.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/com/netease/idc/jobs/TestUPQuality.scala" />
         <option value="$PROJECT_DIR$/doc/建表语句" />
         <option value="$PROJECT_DIR$/src/main/resources/strategies.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/netease/idc/strategy/BsYearEqualStrategy.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/netease/idc/strategy/TestBsYearEqualStrategy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/netease/idc/jobs/UPQuality.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1181,14 +1192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3700">
-          <caret line="185" column="12" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="185" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/netease/idc/jobs/TestUPQuality.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1219,6 +1222,14 @@
           <folding>
             <element signature="e#30#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

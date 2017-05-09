@@ -195,7 +195,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.groovy:groovy-all:2.1.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: stax:stax-api:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.4" level="project" />
-    <orderEntry type="library" name="Maven: com.netease.udc:featureMerge:0.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.anarres.lzo:lzo-hadoop:1.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.anarres.lzo:lzo-core:1.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.hadoop:hadoop-core:1.2.1" level="project" />

@@ -72,12 +72,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.netease.udc</groupId>
-            <artifactId>featureMerge</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.anarres.lzo</groupId>
             <artifactId>lzo-hadoop</artifactId>
             <version>1.0.0</version>
